@@ -76,7 +76,9 @@ void outputDot(
 
     fout << '\n';
 
-    for (auto [u, v] : edges) {
+    for (const auto& edge : edges) {
+        int u = edge.first;
+        int v = edge.second;
         int a = min(u, v);
         int b = max(u, v);
 
