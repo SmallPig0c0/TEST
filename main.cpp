@@ -31,6 +31,7 @@ vector<int> bfs(const vector<vector<int>>& graph, int start, vector<int>& dist) 
     return order;
 }
 
+k++ ;
 
 
 int main() {
