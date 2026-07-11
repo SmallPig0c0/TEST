@@ -27,6 +27,7 @@ vector<int> bfs(const vector<vector<int>>& graph, int start, vector<int>& dist, 
                 dist[v] = dist[u] + 1;
                 parent[v] = u;
                 q.push(v);
+                
             }
         }
     }
